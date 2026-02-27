@@ -15,15 +15,15 @@ type ConfigId = "general" | "vibe" | "ai";
 
 const CONFIGS: Record<ConfigId, { script: string; accent: string }> = {
   general: {
-    script: "irm http://localhost:3000/api/config1 | iex",
+    script: "# TODO: General Dev Suite script endpoint",
     accent: "#38bdf8", // blue
   },
   vibe: {
-    script: "irm get.oneclickcode.dev/vibe | iex",
+    script: "# TODO: Vibe Coding Suite script endpoint",
     accent: "#a855f7", // purple
   },
   ai: {
-    script: "irm get.oneclickcode.dev/ai | iex",
+    script: "# TODO: AI & Data Science Suite script endpoint",
     accent: "#facc15", // gold
   },
 };
